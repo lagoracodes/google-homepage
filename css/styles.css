@@ -1,0 +1,32 @@
+ul {
+    display: flex;
+    width: 300px;
+    background-color: lightseagreen;
+    justify-content:space-evenly ;
+}
+
+header {
+    background-color: lightblue;
+}
+/* .header-item {
+    padding: 2rem;
+} */
+
+nav {
+  display: flex;
+  justify-content:right;
+  background-color: gray;
+}
+
+.photo-container {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.profile-pic {
+  height: 100%;
+}
