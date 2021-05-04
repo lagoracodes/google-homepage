@@ -5,6 +5,7 @@ body {
 }
 
 .paige-container {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +27,7 @@ main {
 }
 
 .languages {
-  margin-top: 20px;
+  margin-top: 50px;
   /* background-color:aqua; */
 }
 
@@ -42,10 +43,26 @@ main {
   padding: 0px 7px;
 }
 
+button {
+  text-align: center;
+  margin: 0px 50px;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  padding: 8px;
+  border: solid 1px lightgrey;
+  box-shadow: 0px 1px 0px 0px lightgrey;
+}
+
 .main-buttons {
   margin: 20px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  /* background-color: hotpink; */
 }
 
 footer {
