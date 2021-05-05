@@ -21,7 +21,7 @@ main {
 
 .main-container {
   /* background-color: lavenderblush; */
-  margin-bottom: 255px;
+  margin-bottom: 120px;
   justify-content: center;
   align-items: center;
 }
@@ -44,21 +44,24 @@ main {
 }
 
 button {
+  background-color: #f7f7f7;
+  font-size: 14px;
+  color: #3a3a3a;
   text-align: center;
-  margin: 0px 50px;
-  padding: 9px;
+  margin: 0px 7px;
+  padding: 11px 15px;
   border: none;
   border-radius: 4px;
 }
 
 button:hover {
-  padding: 8px;
-  border: solid 1px lightgrey;
+  padding: 10px 14px;
+  border: solid 1px rgb(224, 224, 224);
   box-shadow: 0px 1px 0px 0px lightgrey;
 }
 
 .main-buttons {
-  margin: 20px;
+  margin: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
